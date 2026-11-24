@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="uz" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dia AI — Boshqaruv Paneli (Admin)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#00E676',
+              dark: '#00B359',
+              light: '#69F0AE',
+              bg: '#0A0F1D',
+              card: '#141E33',
+              border: '#1F2E4D'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #0A0F1D; color: #F1F5F9; font-family: system-ui, -apple-system, sans-serif; }
+    .glass-card { background: rgba(20, 30, 51, 0.8); backdrop-filter: blur(12px); border: 1px solid #1F2E4D; }
+    .custom-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
+    .custom-scroll::-webkit-scrollbar-thumb { background: #1F2E4D; border-radius: 4px; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col md:flex-row">
+
+  <!-- Sidebar -->
+  <aside class="w-full md:w-64 glass-card border-r border-brand-border flex flex-col p-4 z-20">
+    <div class="flex items-center gap-3 px-2 py-4 mb-6 border-b border-brand-border">
+      <div class="w-10 h-10 rounded-xl bg-brand/20 flex items-center justify-center text-brand font-bold text-xl">
+        <i class="fa-solid fa-heart-pulse"></i>
+      </div>
+      <div>
+        <h1 class="font-bold text-lg text-white">Dia AI</h1>
+        <span class="text-xs text-brand tracking-wider font-semibold uppercase">Admin Panel</span>
+      </div>
+    </div>
+
+    <nav class="flex-1 space-y-1">
+      <button onclick="switchTab('dashboard')" id="tab-btn-dashboard" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition bg-brand text-black font-semibold">
+        <i class="fa-solid fa-chart-pie w-5"></i> Boshqaruv Paneli
+      </button>
+      <button onclick="switchTab('users')" id="tab-btn-users" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition text-gray-400 hover:text-white hover:bg-brand-card">
+        <i class="fa-solid fa-users w-5"></i> Bemorlar
+      </button>
+      <button onclick="switchTab('recipes')" id="tab-btn-recipes" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition text-gray-400 hover:text-white hover:bg-brand-card">
+        <i class="fa-solid fa-utensils w-5"></i> Retseptlar
+      </button>
+      <button onclick="switchTab('meals')" id="tab-btn-meals" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition text-gray-400 hover:text-white hover:bg-brand-card">
+        <i class="fa-solid fa-bowl-food w-5"></i> Ovqatlar Jurnali
+      </button>
+      <button onclick="switchTab('glucose')" id="tab-btn-glucose" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition text-gray-400 hover:text-white hover:bg-brand-card">
+        <i class="fa-solid fa-droplet w-5"></i> Qon Shakari
+      </button>
+    </nav>
+
+    <div class="p-4 rounded-xl bg-brand-card/50 border border-brand-border mt-auto">
+      <div class="flex items-center gap-2 text-xs text-brand font-medium">
+        <span class="w-2 h-2 rounded-full bg-brand animate-pulse"></span> FastAPI 1.0.0 Online
+      </div>
+      <a href="/docs" target="_blank" class="mt-2 block text-xs text-gray-400 hover:text-white underline">Swagger API Docs →</a>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="flex-1 flex flex-col min-h-screen overflow-y-auto custom-scroll">
+    <header class="h-16 glass-card border-b border-brand-border px-6 flex items-center justify-between">
+      <h2 id="page-title" class="text-xl font-bold text-white">Boshqaruv Paneli</h2>
+      <button onclick="loadCurrentTab()" class="px-3 py-1.5 rounded-lg bg-brand-card hover:bg-brand-border text-xs text-gray-300 flex items-center gap-2 transition">
+        <i class="fa-solid fa-rotate"></i> Yangilash
+      </button>
+    </header>
+
+    <div class="p-6 flex-1 space-y-6">
+
+      <!-- TAB: DASHBOARD -->
+      <section id="view-dashboard" class="space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="glass-card p-5 rounded-2xl">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-xs text-gray-400 font-medium">Jami Bemorlar</p>
+                <h3 id="stat-users" class="text-2xl font-bold text-white mt-1">-</h3>
+              </div>
+              <div class="p-3 bg-blue-500/10 text-blue-400 rounded-xl"><i class="fa-solid fa-user-group text-lg"></i></div>
+            </div>
+          </div>
+          <div class="glass-card p-5 rounded-2xl">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-xs text-gray-400 font-medium">Kiritilgan Ovqatlar</p>
+                <h3 id="stat-meals" class="text-2xl font-bold text-white mt-1">-</h3>
+              </div>
+              <div class="p-3 bg-emerald-500/10 text-brand rounded-xl"><i class="fa-solid fa-utensils text-lg"></i></div>
+            </div>
+          </div>
+          <div class="glass-card p-5 rounded-2xl">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-xs text-gray-400 font-medium">Qon Shakari O'lchovlari</p>
+                <h3 id="stat-glucose" class="text-2xl font-bold text-white mt-1">-</h3>
+              </div>
+              <div class="p-3 bg-red-500/10 text-red-400 rounded-xl"><i class="fa-solid fa-droplet text-lg"></i></div>
+            </div>
+          </div>
+          <div class="glass-card p-5 rounded-2xl">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-xs text-gray-400 font-medium">Diabetik Retseptlar</p>
+                <h3 id="stat-recipes" class="text-2xl font-bold text-white mt-1">-</h3>
+              </div>
+              <div class="p-3 bg-amber-500/10 text-amber-400 rounded-xl"><i class="fa-solid fa-book-bookmark text-lg"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="glass-card p-6 rounded-2xl">
+            <h4 class="text-base font-semibold text-white mb-4"><i class="fa-solid fa-chart-line text-brand mr-2"></i> O'rtacha Salomatlik Holati</h4>
+            <div class="space-y-4">
+              <div class="flex justify-between items-center p-4 rounded-xl bg-brand-bg">
+                <span class="text-sm text-gray-400">O'rtacha Qon Shakari</span>
+                <span id="stat-avg-glucose" class="text-lg font-bold text-white">- mg/dL</span>
+              </div>
+              <div class="flex justify-between items-center p-4 rounded-xl bg-brand-bg">
+                <span class="text-sm text-gray-400">Jami Qayd Etilgan Kaloriya</span>
+                <span id="stat-total-calories" class="text-lg font-bold text-brand">- kkal</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-2xl flex flex-col justify-center items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-brand/20 flex items-center justify-center text-brand text-2xl mb-3">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h4 class="text-lg font-bold text-white">Dia AI Engine Faol</h4>
+            <p class="text-xs text-gray-400 max-w-sm mt-1">Yandex SpeechKit, Gemini 2.5 Vision va Tibbiy ekspertiza tizimi to'liq ishlab turibdi.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: USERS -->
+      <section id="view-users" class="hidden space-y-4">
+        <div class="flex justify-between items-center gap-4">
+          <input type="text" id="user-search" oninput="fetchUsers()" placeholder="Bemor ismi yoki username bo'yicha qidirish..." class="bg-brand-card border border-brand-border rounded-xl px-4 py-2.5 text-sm text-white w-full max-w-md focus:outline-none focus:border-brand">
+        </div>
+        <div class="glass-card rounded-2xl overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm text-gray-300">
+              <thead class="bg-brand-bg text-xs uppercase text-gray-400 border-b border-brand-border">
+                <tr>
+                  <th class="px-6 py-4">ID</th>
+                  <th class="px-6 py-4">Foydalanuvchi</th>
+                  <th class="px-6 py-4">Jinsi / Yoshi</th>
+                  <th class="px-6 py-4">Bo'y / Vazn</th>
+                  <th class="px-6 py-4">Diabet Turi</th>
+                  <th class="px-6 py-4">Kunlik Kaloriya</th>
+                </tr>
+              </thead>
+              <tbody id="users-table-body" class="divide-y divide-brand-border"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: RECIPES -->
+      <section id="view-recipes" class="hidden space-y-4">
+        <div class="flex justify-between items-center">
+          <h3 class="text-lg font-bold text-white">Retseptlar Boshqaruvi</h3>
+          <button onclick="openRecipeModal()" class="px-4 py-2 bg-brand hover:bg-brand-dark text-black font-semibold rounded-xl text-sm transition flex items-center gap-2">
+            <i class="fa-solid fa-plus"></i> Yangi Retsept
+          </button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="recipes-grid"></div>
+      </section>
+
+      <!-- TAB: MEALS -->
+      <section id="view-meals" class="hidden space-y-4">
+        <div class="glass-card rounded-2xl overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm text-gray-300">
+              <thead class="bg-brand-bg text-xs uppercase text-gray-400 border-b border-brand-border">
+                <tr>
+                  <th class="px-6 py-4">Taom</th>
+                  <th class="px-6 py-4">Turi</th>
+                  <th class="px-6 py-4">Portsiya</th>
+                  <th class="px-6 py-4">Kaloriya</th>
+                  <th class="px-6 py-4">Uglevod (XE)</th>
+                  <th class="px-6 py-4">GI</th>
+                  <th class="px-6 py-4">Sana</th>
+                </tr>
+              </thead>
+              <tbody id="meals-table-body" class="divide-y divide-brand-border"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: GLUCOSE -->
+      <section id="view-glucose" class="hidden space-y-4">
+        <div class="glass-card rounded-2xl overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm text-gray-300">
+              <thead class="bg-brand-bg text-xs uppercase text-gray-400 border-b border-brand-border">
+                <tr>
+                  <th class="px-6 py-4">Qon Shakari</th>
+                  <th class="px-6 py-4">Holat</th>
+                  <th class="px-6 py-4">O'lchov Vaqti</th>
+                  <th class="px-6 py-4">Izoh</th>
+                  <th class="px-6 py-4">Vaqt</th>
+                </tr>
+              </thead>
+              <tbody id="glucose-table-body" class="divide-y divide-brand-border"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Recipe Modal -->
+  <div id="recipe-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="glass-card w-full max-w-lg rounded-2xl p-6 space-y-4 max-h-[90vh] overflow-y-auto custom-scroll">
+      <div class="flex justify-between items-center">
+        <h3 id="modal-title" class="text-lg font-bold text-white">Yangi Retsept Qo'shish</h3>
+        <button onclick="closeRecipeModal()" class="text-gray-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+      <form id="recipe-form" onsubmit="saveRecipe(event)" class="space-y-3">
+        <input type="hidden" id="recipe-id">
+        <div>
+          <label class="text-xs text-gray-400">Taom Nomi</label>
+          <input type="text" id="recipe-title" required class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="text-xs text-gray-400">Kategoriya</label>
+            <select id="recipe-category" class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand">
+              <option value="breakfast">Nonushta</option>
+              <option value="lunch">Tushlik</option>
+              <option value="dinner">Kechki ovqat</option>
+              <option value="snack">Yengil tamaddi</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-xs text-gray-400">Glikemik Indeks (GI)</label>
+            <input type="number" id="recipe-gi" required class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand">
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <div>
+            <label class="text-xs text-gray-400">Kaloriya (kkal)</label>
+            <input type="number" id="recipe-calories" required class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand">
+          </div>
+          <div>
+            <label class="text-xs text-gray-400">Uglevod (g)</label>
+            <input type="number" id="recipe-carbs" required class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand">
+          </div>
+          <div>
+            <label class="text-xs text-gray-400">Oqsil (g)</label>
+            <input type="number" id="recipe-protein" required class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand">
+          </div>
+        </div>
+        <div>
+          <label class="text-xs text-gray-400">Rasm URL (ixtiyoriy)</label>
+          <input type="url" id="recipe-image" class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand">
+        </div>
+        <div>
+          <label class="text-xs text-gray-400">Tavsif / Tayyorlash usuli</label>
+          <textarea id="recipe-instructions" rows="3" class="w-full bg-brand-bg border border-brand-border rounded-lg px-3 py-2 text-sm text-white focus:border-brand"></textarea>
+        </div>
+        <div class="flex justify-end gap-3 pt-2">
+          <button type="button" onclick="closeRecipeModal()" class="px-4 py-2 rounded-lg bg-brand-card hover:bg-brand-border text-sm text-gray-300">Bekor qilish</button>
+          <button type="submit" class="px-5 py-2 rounded-lg bg-brand hover:bg-brand-dark text-black font-semibold text-sm">Saqlash</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Admin JavaScript Logic -->
+  <script>
+    let currentTab = 'dashboard';
+
+    function switchTab(tab) {
+      currentTab = tab;
+      ['dashboard', 'users', 'recipes', 'meals', 'glucose'].forEach(t => {
+        document.getElementById(`view-${t}`).classList.toggle('hidden', t !== tab);
+        const btn = document.getElementById(`tab-btn-${t}`);
+        if (t === tab) {
+          btn.className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-semibold bg-brand text-black transition";
+        } else {
+          btn.className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-gray-400 hover:text-white hover:bg-brand-card transition";
+        }
+      });
+      const titles = { dashboard: 'Boshqaruv Paneli', users: 'Bemorlar Boshqaruvi', recipes: 'Diabetik Retseptlar', meals: 'Ovqatlar Jurnali', glucose: 'Qon Shakari Monitoringi' };
+      document.getElementById('page-title').innerText = titles[tab] || 'Admin';
+      loadCurrentTab();
+    }
+
+    function loadCurrentTab() {
+      if (currentTab === 'dashboard') fetchStats();
+      if (currentTab === 'users') fetchUsers();
+      if (currentTab === 'recipes') fetchRecipes();
+      if (currentTab === 'meals') fetchMeals();
+      if (currentTab === 'glucose') fetchGlucose();
+    }
+
+    async function fetchStats() {
+      try {
+        const res = await fetch('/api/v1/admin/stats');
+        const data = await res.json();
+        document.getElementById('stat-users').innerText = data.user_count || 0;
+        document.getElementById('stat-meals').innerText = data.meal_count || 0;
+        document.getElementById('stat-glucose').innerText = data.glucose_count || 0;
+        document.getElementById('stat-recipes').innerText = data.recipe_count || 0;
+        document.getElementById('stat-avg-glucose').innerText = (data.avg_glucose || 0) + ' mg/dL';
+        document.getElementById('stat-total-calories').innerText = (data.total_calories_logged || 0) + ' kkal';
+      } catch (e) { console.error('Stats error', e); }
+    }
+
+    async function fetchUsers() {
+      const q = document.getElementById('user-search').value;
+      try {
+        const res = await fetch(`/api/v1/admin/users?search=${encodeURIComponent(q)}`);
+        const users = await res.json();
+        const tbody = document.getElementById('users-table-body');
+        tbody.innerHTML = users.map(u => `
+          <tr class="hover:bg-brand-card/40 transition">
+            <td class="px-6 py-4 font-mono text-xs text-gray-400">#${u.id}</td>
+            <td class="px-6 py-4 font-semibold text-white">${u.first_name || u.username} <span class="text-xs text-gray-400 font-normal">(@${u.username})</span></td>
+            <td class="px-6 py-4 text-xs">${u.gender === 'male' ? 'Erkak' : 'Ayol'} / ${u.age || '-'} yosh</td>
+            <td class="px-6 py-4 text-xs">${u.height || '-'} sm / ${u.weight || '-'} kg</td>
+            <td class="px-6 py-4"><span class="px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-brand">${u.diabetes_type || '2-toifa'}</span></td>
+            <td class="px-6 py-4 font-semibold text-white">${u.daily_calorie_target || '-'} kkal</td>
+          </tr>
+        `).join('');
+      } catch (e) { console.error('Users error', e); }
+    }
+
+    async function fetchRecipes() {
+      try {
+        const res = await fetch('/api/v1/recipes?limit=100');
+        const recipes = await res.json();
+        const grid = document.getElementById('recipes-grid');
+        grid.innerHTML = recipes.map(r => `
+          <div class="glass-card rounded-2xl p-5 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex justify-between items-start">
+                <span class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-brand-bg text-brand uppercase">${r.category}</span>
+                <span class="px-2 py-0.5 rounded text-xs ${r.glycemic_index <= 55 ? 'bg-emerald-500/10 text-brand' : 'bg-amber-500/10 text-amber-400'} font-bold">GI: ${r.glycemic_index}</span>
+              </div>
+              <h4 class="font-bold text-white text-base mt-2">${r.title}</h4>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1">${r.instructions || ''}</p>
+            </div>
+            <div class="border-t border-brand-border pt-3 flex justify-between items-center text-xs text-gray-300">
+              <span>🔥 ${r.calories} kkal</span>
+              <span>🌾 ${r.carbs}g uglevod</span>
+              <button onclick="deleteRecipe(${r.id})" class="text-red-400 hover:text-red-300 p-1.5"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+        `).join('');
+      } catch (e) { console.error('Recipes error', e); }
+    }
+
+    async function fetchMeals() {
+      try {
+        const res = await fetch('/api/v1/admin/meals');
+        const meals = await res.json();
+        const tbody = document.getElementById('meals-table-body');
+        tbody.innerHTML = meals.map(m => `
+          <tr class="hover:bg-brand-card/40 transition">
+            <td class="px-6 py-4 font-semibold text-white">${m.name}</td>
+            <td class="px-6 py-4 uppercase text-xs text-gray-400">${m.meal_type}</td>
+            <td class="px-6 py-4 text-xs">${m.portion_grams}g</td>
+            <td class="px-6 py-4 text-brand font-semibold">${m.calories} kkal</td>
+            <td class="px-6 py-4 text-xs text-gray-300">${m.carbs}g (${(m.carbs / 12).toFixed(1)} XE)</td>
+            <td class="px-6 py-4 text-xs font-bold ${m.glycemic_index <= 55 ? 'text-brand' : 'text-amber-400'}">${m.glycemic_index}</td>
+            <td class="px-6 py-4 text-xs text-gray-400">${m.date_str}</td>
+          </tr>
+        `).join('');
+      } catch (e) { console.error('Meals error', e); }
+    }
+
+    async function fetchGlucose() {
+      try {
+        const res = await fetch('/api/v1/admin/glucose');
+        const logs = await res.json();
+        const tbody = document.getElementById('glucose-table-body');
+        tbody.innerHTML = logs.map(g => {
+          const isNorm = g.status === 'normal';
+          const isHigh = g.status === 'high' || g.status === 'elevated';
+          const badgeClass = isNorm ? 'bg-emerald-500/10 text-brand' : (isHigh ? 'bg-red-500/10 text-red-400' : 'bg-amber-500/10 text-amber-400');
+          return `
+            <tr class="hover:bg-brand-card/40 transition">
+              <td class="px-6 py-4 font-bold text-white text-base">${g.value} <span class="text-xs font-normal text-gray-400">mg/dL</span></td>
+              <td class="px-6 py-4"><span class="px-2.5 py-1 rounded-full text-xs font-semibold ${badgeClass}">${g.status}</span></td>
+              <td class="px-6 py-4 text-xs text-gray-300">${g.measurement_type}</td>
+              <td class="px-6 py-4 text-xs text-gray-400">${g.notes || '-'}</td>
+              <td class="px-6 py-4 text-xs text-gray-400">${g.date_str}</td>
+            </tr>
+          `;
+        }).join('');
+      } catch (e) { console.error('Glucose error', e); }
+    }
+
+    function openRecipeModal() {
+      document.getElementById('recipe-modal').classList.remove('hidden');
+    }
+    function closeRecipeModal() {
+      document.getElementById('recipe-modal').classList.add('hidden');
+      document.getElementById('recipe-form').reset();
+    }
+
+    async function saveRecipe(e) {
+      e.preventDefault();
+      const payload = {
+        title: document.getElementById('recipe-title').value,
+        category: document.getElementById('recipe-category').value,
+        glycemic_index: parseInt(document.getElementById('recipe-gi').value),
+        calories: parseFloat(document.getElementById('recipe-calories').value),
+        carbs: parseFloat(document.getElementById('recipe-carbs').value),
+        protein: parseFloat(document.getElementById('recipe-protein').value),
+        fat: 5.0,
+        sugar: 2.0,
+        image_url: document.getElementById('recipe-image').value || null,
+        instructions: document.getElementById('recipe-instructions').value
+      };
+      await fetch('/api/v1/admin/recipes', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      closeRecipeModal();
+      fetchRecipes();
+    }
+
+    async function deleteRecipe(id) {
+      if (!confirm("Retseptni o'chirmoqchimisiz?")) return;
+      await fetch(`/api/v1/admin/recipes/${id}`, { method: 'DELETE' });
+      fetchRecipes();
+    }
+
+    // Initial Load
+    fetchStats();
+  </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+[
+  {
+    "icd_code": "E11",
+    "name_uz": "Qandli diabet 2-tur",
+    "name_ru": "Сахарный диабет 2 типа",
+    "category": "diabet",
+    "specialists": [
+      { "specialty_uz": "Endokrinolog", "specialty_ru": "Эндокринолог", "priority": 1, "reason_uz": "Qon shakarini nazorat qilish va davolash rejasini tuzish uchun asosiy mutaxassis.", "reason_ru": "Основной специалист для контроля сахара в крови и составления плана лечения." },
+      { "specialty_uz": "Terapevt", "specialty_ru": "Терапевт", "priority": 2, "reason_uz": "Umumiy holatni baholash va yo'llanmalar olish uchun.", "reason_ru": "Для оценки общего состояния и получения направлений." }
+    ],
+    "next_steps": [
+      { "order": 1, "title_uz": "Endokrinologga murojaat qiling", "title_ru": "Обратитесь к эндокринологу", "description_uz": "Qon shakarini tahlil qilish natijalari bilan mutaxassis qabuliga yoziling.", "description_ru": "Запишитесь на прием к специалисту с результатами анализов сахара крови.", "urgency": "medium" },
+      { "order": 2, "title_uz": "Laboratoriya tahlillari", "title_ru": "Лабораторные анализы", "description_uz": "Och qoringa qon topshirish, Glikirlangan gemoglobin (HbA1c) va peshob tahlili.", "description_ru": "Сдать кровь натощак, гликированный гемоглобин (HbA1c) и анализ мочи.", "urgency": "high" },
+      { "order": 3, "title_uz": "Parhezni boshlash", "title_ru": "Начало диеты", "description_uz": "Shirinliklar va tez hazm bo'luvchi uglevodlarni cheklang.", "description_ru": "Ограничьте сладости и легкоусвояемые углеводы.", "urgency": "medium" }
+    ]
+  },
+  {
+    "icd_code": "E10.64",
+    "name_uz": "Gipoglikemiya (Qon shakarining tushib ketishi)",
+    "name_ru": "Гипогликемия (Падение сахара в крови)",
+    "category": "diabet",
+    "specialists": [
+      { "specialty_uz": "Tez tibbiy yordam", "specialty_ru": "Скорая помощь", "priority": 1, "reason_uz": "Agar hushdan ketish xavfi bo'lsa darhol chaqirish kerak.", "reason_ru": "Если есть риск потери сознания, следует вызвать немедленно." },
+      { "specialty_uz": "Endokrinolog", "specialty_ru": "Эндокринолог", "priority": 2, "reason_uz": "Kelgusida bunday holat takrorlanmasligi uchun dori dozasini to'g'irlash.", "reason_ru": "Для корректировки дозы лекарства во избежание повторения в будущем." }
+    ],
+    "next_steps": [
+      { "order": 1, "title_uz": "Tezkor chora", "title_ru": "Экстренная мера", "description_uz": "Zudlik bilan 15-20 gramm tez hazm bo'ladigan uglevod iste'mol qiling (masalan, 1 stakan shirin choy, 3-4 dona qand).", "description_ru": "Немедленно примите 15-20 граммов быстроусвояемых углеводов (например, 1 стакан сладкого чая, 3-4 кубика сахара).", "urgency": "critical" },
+      { "order": 2, "title_uz": "O'lchash", "title_ru": "Измерение", "description_uz": "15 daqiqadan so'ng shakarni qayta o'lchang.", "description_ru": "Измерьте сахар еще раз через 15 минут.", "urgency": "high" }
+    ]
+  },
+  {
+    "icd_code": "H36.0",
+    "name_uz": "Diabetik Retinopatiya (Ko'z muammosi)",
+    "name_ru": "Диабетическая ретинопатия (Проблема с глазами)",
+    "category": "diabet",
+    "specialists": [
+      { "specialty_uz": "Oftalmolog (Ko'z shifokori)", "specialty_ru": "Офтальмолог (Окулист)", "priority": 1, "reason_uz": "Ko'z tubini tekshirish va ko'rish qobiliyatini asrash uchun.", "reason_ru": "Для осмотра глазного дна и сохранения зрения." },
+      { "specialty_uz": "Endokrinolog", "specialty_ru": "Эндокринолог", "priority": 2, "reason_uz": "Qon shakarini normallashtirish (asorat rivojlanishini to'xtatish uchun).", "reason_ru": "Нормализовать уровень сахара в крови (чтобы остановить развитие осложнения)." }
+    ],
+    "next_steps": [
+      { "order": 1, "title_uz": "Ko'z shifokoriga yozilish", "title_ru": "Запись к офтальмологу", "description_uz": "Kechiktirmasdan ko'z tubini maxsus tomchilar yordamida tekshirtiring.", "description_ru": "Без промедления проверьте глазное дно с помощью специальных капель.", "urgency": "high" }
+    ]
+  },
+  {
+    "icd_code": "G63.2",
+    "name_uz": "Diabetik Neyropatiya (Asab va oyoq uvishishi)",
+    "name_ru": "Диабетическая нейропатия (Онемение нервов и ног)",
+    "category": "diabet",
+    "specialists": [
+      { "specialty_uz": "Nevropatolog", "specialty_ru": "Невролог", "priority": 1, "reason_uz": "Asab tolalarining zararlanish darajasini tekshirish uchun.", "reason_ru": "Для проверки степени поражения нервных волокон." },
+      { "specialty_uz": "Podolog (yoki Jarroh)", "specialty_ru": "Подолог (или Хирург)", "priority": 2, "reason_uz": "Oyoq terisida yaralar paydo bo'lmasligini nazorat qilish uchun.", "reason_ru": "Для контроля за тем, чтобы на коже ног не появлялись язвы." }
+    ],
+    "next_steps": [
+      { "order": 1, "title_uz": "Oyoqlarni ko'zdan kechirish", "title_ru": "Осмотр ног", "description_uz": "Har kuni kechqurun oyoqlaringizda chaqa yoki yara yo'qligini tekshiring.", "description_ru": "Каждый вечер проверяйте ноги на наличие мозолей или язв.", "urgency": "medium" },
+      { "order": 2, "title_uz": "Nevrolog qabuli", "title_ru": "Прием у невролога", "description_uz": "Sezuvchanlikni tekshirish uchun mutaxassisga boring.", "description_ru": "Обратитесь к специалисту для проверки чувствительности.", "urgency": "high" }
+    ]
+  },
+  {
+    "icd_code": "I10",
+    "name_uz": "Arterial Gipertenziya (Qon bosimi oshishi)",
+    "name_ru": "Артериальная гипертензия (Повышенное давление)",
+    "category": "umumiy",
+    "specialists": [
+      { "specialty_uz": "Kardiolog", "specialty_ru": "Кардиолог", "priority": 1, "reason_uz": "Yurak qon-tomir tizimini tekshirish va dori buyurish uchun.", "reason_ru": "Для обследования сердечно-сосудистой системы и назначения лекарств." },
+      { "specialty_uz": "Terapevt", "specialty_ru": "Терапевт", "priority": 2, "reason_uz": "Umumiy holatni va bosimni doimiy kuzatib borish uchun.", "reason_ru": "Постоянно следить за общим состоянием и давлением." }
+    ],
+    "next_steps": [
+      { "order": 1, "title_uz": "Bosimni o'lchash kKundaligi", "title_ru": "Дневник измерения давления", "description_uz": "Kuniga 2 marta (ertalab va kechqurun) bosimingizni o'lchab, yozib boring.", "description_ru": "Измеряйте и записывайте артериальное давление 2 раза в день (утром и вечером).", "urgency": "medium" },
+      { "order": 2, "title_uz": "Kardiologga uchrashish", "title_ru": "Обратиться к кардиологу", "description_uz": "EKG va yurak UTT si qildiring.", "description_ru": "Сделайте ЭКГ и УЗИ сердца.", "urgency": "high" }
+    ]
+  },
+  {
+    "icd_code": "J45",
+    "name_uz": "Bronxial Astma (Nafas qisishi)",
+    "name_ru": "Бронхиальная астма (Одышка)",
+    "category": "umumiy",
+    "specialists": [
+      { "specialty_uz": "Pulmonolog", "specialty_ru": "Пульмонолог", "priority": 1, "reason_uz": "O'pka faoliyatini tekshirish va inhalatorlar tanlash uchun.", "reason_ru": "Для проверки функции легких и выбора ингалятора." },
+      { "specialty_uz": "Allergolog", "specialty_ru": "Аллерголог", "priority": 2, "reason_uz": "Kasallik qo'zg'atuvchi allergenlarni aniqlash uchun.", "reason_ru": "Для выявления болезнетворных аллергенов." }
+    ],
+    "next_steps": [
+      { "order": 1, "title_uz": "Allergenga yo'l qo'ymaslik", "title_ru": "Избегание аллергенов", "description_uz": "Chang, tutun yoki boshqa qo'zg'atuvchilardan uzoqroq bo'ling.", "description_ru": "Держитесь подальше от пыли, дыма и других раздражителей.", "urgency": "high" },
+      { "order": 2, "title_uz": "Shifokorga murojaat", "title_ru": "Обращение к врачу", "description_uz": "Nafas olish funksiyasini tekshirish (Spirometriya) uchun pulmonologga boring.", "description_ru": "Обратитесь к пульмонологу для проверки функции дыхания (спирометрия).", "urgency": "medium" }
+    ]
+  },
+  {
+    "icd_code": "I20",
+    "name_uz": "Stenokardiya (Yurakda sanchish)",
+    "name_ru": "Стенокардия (Колющая боль в сердце)",
+    "category": "umumiy",
+    "specialists": [
+      { "specialty_uz": "Kardiolog", "specialty_ru": "Кардиолог", "priority": 1, "reason_uz": "Yurak ishemiyasi xavfini baholash va kerakli yordam ko'rsatish.", "reason_ru": "Оценка риска ишемии сердца и оказание необходимой помощи." }
+    ],
+    "next_steps": [
+      { "order": 1, "title_uz": "Tinchlanish va dori", "title_ru": "Покой и лекарства", "description_uz": "Harakatni to'xtating. Agar shifokor buyurgan bo'lsa Nitroglitserin qabul qiling.", "description_ru": "Остановите движение. Примите Нитроглицерин, если назначил врач.", "urgency": "critical" },
+      { "order": 2, "title_uz": "EKG tekshiruvi", "title_ru": "ЭКГ обследование", "description_uz": "Tezroq Kardiologik tekshiruvdan o'ting.", "description_ru": "Как можно скорее пройдите кардиологическое обследование.", "urgency": "high" }
+    ]
+  }
+]

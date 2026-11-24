@@ -1,0 +1,648 @@
+{
+  "red": {
+    "titleUz": "Qizil ro'yxat (Cheklash)",
+    "titleRu": "Красный список (Ограничение)",
+    "titleEn": "Red list (Restriction)",
+    "descriptionUz": "Shakarni tez ko'taradi va vazn ortishiga sabab bo'ladi.",
+    "descriptionRu": "Быстро повышает уровень сахара и способствует набору веса.",
+    "descriptionEn": "Rapidly raises blood sugar and contributes to weight gain.",
+    "items": [
+      {
+        "nameUz": "Sariyog'",
+        "nameRu": "Сливочное масло",
+        "nameEn": "Butter",
+        "categoryUz": "Yog'lar",
+        "categoryRu": "Жиры",
+        "categoryEn": "Fats"
+      },
+      {
+        "nameUz": "O'simlik yog'i",
+        "nameRu": "Растительное масло",
+        "nameEn": "Vegetable oil",
+        "categoryUz": "Yog'lar",
+        "categoryRu": "Жиры",
+        "categoryEn": "Fats"
+      },
+      {
+        "nameUz": "Salo (mol/qo'y yog'i)",
+        "nameRu": "Сало (говяжий/бараний жир)",
+        "nameEn": "Fat (beef/lamb fat)",
+        "categoryUz": "Yog'lar",
+        "categoryRu": "Жиры",
+        "categoryEn": "Fats"
+      },
+      {
+        "nameUz": "Smetana",
+        "nameRu": "Сметана",
+        "nameEn": "Sour cream",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Qaymoq",
+        "nameRu": "Сливки",
+        "nameEn": "Cream",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Yog'li pishloqlar (>30%)",
+        "nameRu": "Жирные сыры (>30%)",
+        "nameEn": "Fatty cheeses (>30%)",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Yog'li tvorog (>5%)",
+        "nameRu": "Жирный творог (>5%)",
+        "nameEn": "Fatty cottage cheese (>5%)",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Mayonez",
+        "nameRu": "Майонез",
+        "nameEn": "Mayonnaise",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Yog'li go'shtlar",
+        "nameRu": "Жирное мясо",
+        "nameEn": "Fatty meats",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Dudlangan mahsulotlar",
+        "nameRu": "Копченые продукты",
+        "nameEn": "Smoked products",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Kolbasa mahsulotlari",
+        "nameRu": "Колбасные изделия",
+        "nameEn": "Sausage products",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Parranda terisi",
+        "nameRu": "Кожа птицы",
+        "nameEn": "Poultry skin",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Yog'li baliqlar",
+        "nameRu": "Жирная рыба",
+        "nameEn": "Fatty fish",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Qiymali mahsulotlar",
+        "nameRu": "Фаршированные изделия",
+        "nameEn": "Minced meat products",
+        "categoryUz": "Yarim tayyor",
+        "categoryRu": "Полуфабрикаты",
+        "categoryEn": "Semi-finished products"
+      },
+      {
+        "nameUz": "Chuchvara (pelmeni)",
+        "nameRu": "Пельмени",
+        "nameEn": "Dumplings (pelmeni)",
+        "categoryUz": "Yarim tayyor",
+        "categoryRu": "Полуфабрикаты",
+        "categoryEn": "Semi-finished products"
+      },
+      {
+        "nameUz": "Muzlatilgan pissa",
+        "nameRu": "Замороженная пицца",
+        "nameEn": "Frozen pizza",
+        "categoryUz": "Yarim tayyor",
+        "categoryRu": "Полуфабрикаты",
+        "categoryEn": "Semi-finished products"
+      },
+      {
+        "nameUz": "Piroglar",
+        "nameRu": "Пироги",
+        "nameEn": "Pies",
+        "categoryUz": "Pishiriqlar",
+        "categoryRu": "Выпечка",
+        "categoryEn": "Baked goods"
+      },
+      {
+        "nameUz": "Pechenye",
+        "nameRu": "Печенье",
+        "nameEn": "Cookies",
+        "categoryUz": "Pishiriqlar",
+        "categoryRu": "Выпечка",
+        "categoryEn": "Baked goods"
+      },
+      {
+        "nameUz": "Shirin xamirli mahsulotlar",
+        "nameRu": "Сладкие мучные изделия",
+        "nameEn": "Sweet pastries",
+        "categoryUz": "Pishiriqlar",
+        "categoryRu": "Выпечка",
+        "categoryEn": "Baked goods"
+      },
+      {
+        "nameUz": "Muzqaymoq",
+        "nameRu": "Мороженое",
+        "nameEn": "Ice cream",
+        "categoryUz": "Pishiriqlar",
+        "categoryRu": "Выпечка",
+        "categoryEn": "Baked goods"
+      },
+      {
+        "nameUz": "Go'shtli konservalar",
+        "nameRu": "Мясные консервы",
+        "nameEn": "Canned meat",
+        "categoryUz": "Konservalar",
+        "categoryRu": "Консервы",
+        "categoryEn": "Canned goods"
+      },
+      {
+        "nameUz": "Baliqli konservalar",
+        "nameRu": "Рыбные консервы",
+        "nameEn": "Canned fish",
+        "categoryUz": "Konservalar",
+        "categoryRu": "Консервы",
+        "categoryEn": "Canned goods"
+      },
+      {
+        "nameUz": "Sabzavotli konservalar (yog'li)",
+        "nameRu": "Овощные консервы (жирные)",
+        "nameEn": "Canned vegetables (fatty)",
+        "categoryUz": "Konservalar",
+        "categoryRu": "Консервы",
+        "categoryEn": "Canned goods"
+      },
+      {
+        "nameUz": "Yong'oqlar",
+        "nameRu": "Орехи",
+        "nameEn": "Nuts",
+        "categoryUz": "Quruq meva/Yong'oq",
+        "categoryRu": "Сухофрукты/Орехи",
+        "categoryEn": "Dried fruits/Nuts"
+      },
+      {
+        "nameUz": "Pista (semechka)",
+        "nameRu": "Семечки",
+        "nameEn": "Seeds (sunflower seeds)",
+        "categoryUz": "Quruq meva/Yong'oq",
+        "categoryRu": "Сухофрукты/Орехи",
+        "categoryEn": "Dried fruits/Nuts"
+      },
+      {
+        "nameUz": "Turshak",
+        "nameRu": "Курага",
+        "nameEn": "Dried apricots",
+        "categoryUz": "Quruq meva/Yong'oq",
+        "categoryRu": "Сухофрукты/Орехи",
+        "categoryEn": "Dried fruits/Nuts"
+      },
+      {
+        "nameUz": "Mayiz",
+        "nameRu": "Изюм",
+        "nameEn": "Raisins",
+        "categoryUz": "Quruq meva/Yong'oq",
+        "categoryRu": "Сухофрукты/Орехи",
+        "categoryEn": "Dried fruits/Nuts"
+      },
+      {
+        "nameUz": "Shakar",
+        "nameRu": "Сахар",
+        "nameEn": "Sugar",
+        "categoryUz": "Shirinliklar",
+        "categoryRu": "Сладости",
+        "categoryEn": "Sweets"
+      },
+      {
+        "nameUz": "Asal",
+        "nameRu": "Мед",
+        "nameEn": "Honey",
+        "categoryUz": "Shirinliklar",
+        "categoryRu": "Сладости",
+        "categoryEn": "Sweets"
+      },
+      {
+        "nameUz": "Murabbo",
+        "nameRu": "Варенье",
+        "nameEn": "Jam",
+        "categoryUz": "Shirinliklar",
+        "categoryRu": "Сладости",
+        "categoryEn": "Sweets"
+      },
+      {
+        "nameUz": "Jemlar",
+        "nameRu": "Джемы",
+        "nameEn": "Jams",
+        "categoryUz": "Shirinliklar",
+        "categoryRu": "Сладости",
+        "categoryEn": "Sweets"
+      },
+      {
+        "nameUz": "Konfetlar",
+        "nameRu": "Конфеты",
+        "nameEn": "Candies",
+        "categoryUz": "Shirinliklar",
+        "categoryRu": "Сладости",
+        "categoryEn": "Sweets"
+      },
+      {
+        "nameUz": "Shokolad",
+        "nameRu": "Шоколад",
+        "nameEn": "Chocolate",
+        "categoryUz": "Shirinliklar",
+        "categoryRu": "Сладости",
+        "categoryEn": "Sweets"
+      },
+      {
+        "nameUz": "Pirojniy va tortlar",
+        "nameRu": "Пирожные и торты",
+        "nameEn": "Cakes and pastries",
+        "categoryUz": "Shirinliklar",
+        "categoryRu": "Сладости",
+        "categoryEn": "Sweets"
+      },
+      {
+        "nameUz": "Gazli suvlar (shirin)",
+        "nameRu": "Газированные напитки (сладкие)",
+        "nameEn": "Carbonated drinks (sweet)",
+        "categoryUz": "Ichimliklar",
+        "categoryRu": "Напитки",
+        "categoryEn": "Drinks"
+      },
+      {
+        "nameUz": "Meva sharbatlari",
+        "nameRu": "Фруктовые соки",
+        "nameEn": "Fruit juices",
+        "categoryUz": "Ichimliklar",
+        "categoryRu": "Напитки",
+        "categoryEn": "Drinks"
+      },
+      {
+        "nameUz": "Alkogol ichimliklar",
+        "nameRu": "Алкогольные напитки",
+        "nameEn": "Alcoholic beverages",
+        "categoryUz": "Ichimliklar",
+        "categoryRu": "Напитки",
+        "categoryEn": "Drinks"
+      }
+    ]
+  },
+  "yellow": {
+    "titleUz": "Sariq ro'yxat (O'rtacha)",
+    "titleRu": "Желтый список (Умеренно)",
+    "titleEn": "Yellow list (Moderate)",
+    "descriptionUz": "Porsiyangizning yarmi miqdorida eyish tavsiya etiladi.",
+    "descriptionRu": "Рекомендуется употреблять в половинном размере порции.",
+    "descriptionEn": "It is recommended to consume half of your usual portion.",
+    "items": [
+      {
+        "nameUz": "Mol go'shti (yog'siz)",
+        "nameRu": "Говядина (нежирная)",
+        "nameEn": "Beef (lean)",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Buzoq go'shti (yog'siz)",
+        "nameRu": "Телятина (нежирная)",
+        "nameEn": "Veal (lean)",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Baliq (yog'siz)",
+        "nameRu": "Рыба (нежирная)",
+        "nameEn": "Fish (lean)",
+        "categoryUz": "Go'sht va baliq",
+        "categoryRu": "Мясо и рыба",
+        "categoryEn": "Meat and fish"
+      },
+      {
+        "nameUz": "Sut (yog'siz)",
+        "nameRu": "Молоко (обезжиренное)",
+        "nameEn": "Skimmed milk",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Qatiq (yog'siz)",
+        "nameRu": "Кефир (обезжиренный)",
+        "nameEn": "Skimmed kefir",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Pishloq (<30%)",
+        "nameRu": "Сыр (<30%)",
+        "nameEn": "Cheese (<30%)",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Tvorog (<5%)",
+        "nameRu": "Творог (<5%)",
+        "nameEn": "Cottage cheese (<5%)",
+        "categoryUz": "Sut mahsulotlari",
+        "categoryRu": "Молочные продукты",
+        "categoryEn": "Dairy products"
+      },
+      {
+        "nameUz": "Tuxum",
+        "nameRu": "Яйца",
+        "nameEn": "Eggs",
+        "categoryUz": "Sut mahsulotlari/Tuxum",
+        "categoryRu": "Молочные продукты/Яйца",
+        "categoryEn": "Dairy products/Eggs"
+      },
+      {
+        "nameUz": "Kartoshka",
+        "nameRu": "Картофель",
+        "nameEn": "Potatoes",
+        "categoryUz": "Kraxmalli",
+        "categoryRu": "Крахмалосодержащие",
+        "categoryEn": "Starchy"
+      },
+      {
+        "nameUz": "Makkajo'xori",
+        "nameRu": "Кукуруза",
+        "nameEn": "Corn",
+        "categoryUz": "Kraxmalli",
+        "categoryRu": "Крахмалосодержащие",
+        "categoryEn": "Starchy"
+      },
+      {
+        "nameUz": "No'xat",
+        "nameRu": "Горох",
+        "nameEn": "Peas",
+        "categoryUz": "Dukkaklilar",
+        "categoryRu": "Бобовые",
+        "categoryEn": "Legumes"
+      },
+      {
+        "nameUz": "Loviya",
+        "nameRu": "Фасоль",
+        "nameEn": "Beans",
+        "categoryUz": "Dukkaklilar",
+        "categoryRu": "Бобовые",
+        "categoryEn": "Legumes"
+      },
+      {
+        "nameUz": "Yasmiq (chechevitsa)",
+        "nameRu": "Чечевица",
+        "nameEn": "Lentils",
+        "categoryUz": "Dukkaklilar",
+        "categoryRu": "Бобовые",
+        "categoryEn": "Legumes"
+      },
+      {
+        "nameUz": "Grechka",
+        "nameRu": "Гречка",
+        "nameEn": "Buckwheat",
+        "categoryUz": "Donli",
+        "categoryRu": "Зерновые",
+        "categoryEn": "Grains"
+      },
+      {
+        "nameUz": "Suli (ovsyanka)",
+        "nameRu": "Овсянка",
+        "nameEn": "Oatmeal",
+        "categoryUz": "Donli",
+        "categoryRu": "Зерновые",
+        "categoryEn": "Grains"
+      },
+      {
+        "nameUz": "Makaron mahsulotlari",
+        "nameRu": "Макаронные изделия",
+        "nameEn": "Pasta products",
+        "categoryUz": "Donli",
+        "categoryRu": "Зерновые",
+        "categoryEn": "Grains"
+      },
+      {
+        "nameUz": "Non mahsulotlari (shirinmas)",
+        "nameRu": "Хлебобулочные изделия (несладкие)",
+        "nameEn": "Bread products (unsweetened)",
+        "categoryUz": "Donli",
+        "categoryRu": "Зерновые",
+        "categoryEn": "Grains"
+      },
+      {
+        "nameUz": "Olma",
+        "nameRu": "Яблоки",
+        "nameEn": "Apples",
+        "categoryUz": "Mevalar",
+        "categoryRu": "Фрукты",
+        "categoryEn": "Fruits"
+      },
+      {
+        "nameUz": "Nok",
+        "nameRu": "Груши",
+        "nameEn": "Pears",
+        "categoryUz": "Mevalar",
+        "categoryRu": "Фрукты",
+        "categoryEn": "Fruits"
+      },
+      {
+        "nameUz": "O'rik",
+        "nameRu": "Абрикосы",
+        "nameEn": "Apricots",
+        "categoryUz": "Mevalar",
+        "categoryRu": "Фрукты",
+        "categoryEn": "Fruits"
+      }
+    ]
+  },
+  "green": {
+    "titleUz": "Yashil ro'yxat (Cheklovsiz)",
+    "titleRu": "Зеленый список (Без ограничений)",
+    "titleEn": "Green list (Unrestricted)",
+    "descriptionUz": "Kletchatkaga boy va kaloriyasi past bo'lgan mahsulotlar.",
+    "descriptionRu": "Продукты, богатые клетчаткой и с низким содержанием калорий.",
+    "descriptionEn": "Products rich in fiber and low in calories.",
+    "items": [
+      {
+        "nameUz": "Karam",
+        "nameRu": "Капуста",
+        "nameEn": "Cabbage",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Bodring",
+        "nameRu": "Огурцы",
+        "nameEn": "Cucumbers",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Bargli salat",
+        "nameRu": "Листовой салат",
+        "nameEn": "Leaf lettuce",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Ko'katlar",
+        "nameRu": "Зелень",
+        "nameEn": "Greens/Herbs",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Pomidor",
+        "nameRu": "Помидоры",
+        "nameEn": "Tomatoes",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Bolgar qalampiri",
+        "nameRu": "Болгарский перец",
+        "nameEn": "Bell pepper",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Qovoqcha (kabachki)",
+        "nameRu": "Кабачки",
+        "nameEn": "Zucchini",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Baqlajon",
+        "nameRu": "Баклажан",
+        "nameEn": "Eggplant",
+        "categoryUz": "Sabzavotlar",
+        "categoryRu": "Овощи",
+        "categoryEn": "Vegetables"
+      },
+      {
+        "nameUz": "Lavlagi",
+        "nameRu": "Свекла",
+        "nameEn": "Beets",
+        "categoryUz": "Ildizmevalar",
+        "categoryRu": "Корнеплоды",
+        "categoryEn": "Root vegetables"
+      },
+      {
+        "nameUz": "Sabzi",
+        "nameRu": "Морковь",
+        "nameEn": "Carrots",
+        "categoryUz": "Ildizmevalar",
+        "categoryRu": "Корнеплоды",
+        "categoryEn": "Root vegetables"
+      },
+      {
+        "nameUz": "Turp",
+        "nameRu": "Редька",
+        "nameEn": "Radish",
+        "categoryUz": "Ildizmevalar",
+        "categoryRu": "Корнеплоды",
+        "categoryEn": "Root vegetables"
+      },
+      {
+        "nameUz": "Rediska",
+        "nameRu": "Редиска",
+        "nameEn": "Radish",
+        "categoryUz": "Ildizmevalar",
+        "categoryRu": "Корнеплоды",
+        "categoryEn": "Root vegetables"
+      },
+      {
+        "nameUz": "Sholg'om",
+        "nameRu": "Репа",
+        "nameEn": "Turnip",
+        "categoryUz": "Ildizmevalar",
+        "categoryRu": "Корнеплоды",
+        "categoryEn": "Root vegetables"
+      },
+      {
+        "nameUz": "Yashil no'xat (yangi)",
+        "nameRu": "Зеленый горошек (свежий)",
+        "nameEn": "Green peas (fresh)",
+        "categoryUz": "Boshqalar",
+        "categoryRu": "Прочее",
+        "categoryEn": "Other"
+      },
+      {
+        "nameUz": "Ismaloq",
+        "nameRu": "Шпинат",
+        "nameEn": "Spinach",
+        "categoryUz": "Boshqalar",
+        "categoryRu": "Прочее",
+        "categoryEn": "Other"
+      },
+      {
+        "nameUz": "Otquloq (shavel)",
+        "nameRu": "Щавель",
+        "nameEn": "Sorrel",
+        "categoryUz": "Boshqalar",
+        "categoryRu": "Прочее",
+        "categoryEn": "Other"
+      },
+      {
+        "nameUz": "Qo'ziqorinlar",
+        "nameRu": "Грибы",
+        "nameEn": "Mushrooms",
+        "categoryUz": "Boshqalar",
+        "categoryRu": "Прочее",
+        "categoryEn": "Other"
+      },
+      {
+        "nameUz": "Shakarsiz choy",
+        "nameRu": "Чай без сахара",
+        "nameEn": "Unsweetened tea",
+        "categoryUz": "Ichimliklar",
+        "categoryRu": "Напитки",
+        "categoryEn": "Drinks"
+      },
+      {
+        "nameUz": "Shakarsiz kofe",
+        "nameRu": "Кофе без сахара",
+        "nameEn": "Unsweetened coffee",
+        "categoryUz": "Ichimliklar",
+        "categoryRu": "Напитки",
+        "categoryEn": "Drinks"
+      },
+      {
+        "nameUz": "Mineral suv",
+        "nameRu": "Минеральная вода",
+        "nameEn": "Mineral water",
+        "categoryUz": "Ichimliklar",
+        "categoryRu": "Напитки",
+        "categoryEn": "Drinks"
+      }
+    ]
+  }
+}

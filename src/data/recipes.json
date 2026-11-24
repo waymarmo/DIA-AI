@@ -1,0 +1,1847 @@
+[
+  {
+    "id": 1,
+    "title": "Tuxumli avokado nonushta",
+    "titleRu": "Завтрак с яйцом и авокадо",
+    "titleEn": "Egg and avocado toast",
+    "time": 10,
+    "calories": 285,
+    "sugar": 1,
+    "carbs": 18,
+    "protein": 14,
+    "fat": 18,
+    "fiber": 7,
+    "gi": "low",
+    "category": "nonushta",
+    "categoryRu": "завтрак",
+    "categoryEn": "breakfast",
+    "servings": 1,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400",
+    "ingredientsUz": [
+      "2 dona tuxum",
+      "1/2 avokado",
+      "1 tilim qora non",
+      "Tuz, murch"
+    ],
+    "ingredientsRu": [
+      "2 яйца",
+      "1/2 авокадо",
+      "1 ломтик черного хлеба",
+      "Соль, перец"
+    ],
+    "ingredientsEn": [
+      "2 eggs",
+      "1/2 avocado",
+      "1 slice of black bread",
+      "Salt, pepper"
+    ],
+    "instructionsUz": "1. Tuxumni qaynating. 2. Avokadoni ezib nonga surting. 3. Tuxumni qo'ying.",
+    "instructionsRu": "1. Отварите яйца. 2. Разомните авокадо и намажьте на хлеб. 3. Выложите яйца.",
+    "instructionsEn": "1. Boil the eggs. 2. Mash the avocado and spread it on bread. 3. Add the eggs.",
+    "isFavorite": true,
+    "healthScore": 76,
+    "diabetesFriendly": true,
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Jo'xori go'jasi meva bilan",
+    "titleRu": "Овсянка с фруктами",
+    "titleEn": "Oatmeal with berries",
+    "time": 15,
+    "calories": 220,
+    "sugar": 8,
+    "carbs": 35,
+    "protein": 9,
+    "fat": 5,
+    "fiber": 6,
+    "gi": "low",
+    "category": "nonushta",
+    "categoryRu": "завтрак",
+    "categoryEn": "breakfast",
+    "servings": 1,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "ingredientsUz": [
+      "50g suli",
+      "200ml soya suti",
+      "Mevalar",
+      "Bodom"
+    ],
+    "ingredientsRu": [
+      "50г овсянки",
+      "200мл соевого молока",
+      "Фрукты",
+      "Миндаль"
+    ],
+    "ingredientsEn": [
+      "50g oats",
+      "200ml soy milk",
+      "Fruits",
+      "Almonds"
+    ],
+    "instructionsUz": "1. Sulini sutda pishiring. 2. Meva va yong'oq qo'shing.",
+    "instructionsRu": "1. Приготовьте овсянку в молоке. 2. Добавьте фрукты и орехи.",
+    "instructionsEn": "1. Cook oats in milk. 2. Add fruits and nuts.",
+    "healthScore": 78,
+    "diabetesFriendly": true,
+    "trafficLight": "yellow",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Greek yogurt meva bilan",
+    "titleRu": "Греческий йогурт с ягодами",
+    "titleEn": "Greek yogurt with berries",
+    "time": 5,
+    "calories": 195,
+    "sugar": 12,
+    "carbs": 18,
+    "protein": 14,
+    "fat": 8,
+    "fiber": 4,
+    "gi": "low",
+    "category": "nonushta",
+    "categoryRu": "завтрак",
+    "categoryEn": "breakfast",
+    "servings": 1,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400",
+    "ingredientsUz": [
+      "150g yogurt",
+      "Mevalar",
+      "Chia urug'i"
+    ],
+    "ingredientsRu": [
+      "150г йогурта",
+      "Ягоды",
+      "Семена чиа"
+    ],
+    "ingredientsEn": [
+      "150g yogurt",
+      "Berries",
+      "Chia seeds"
+    ],
+    "instructionsUz": "Yogurt ustiga meva va urug'larni qo'shing.",
+    "instructionsRu": "Добавьте ягоды и семена на йогурт.",
+    "instructionsEn": "Add berries and seeds on top of the yogurt.",
+    "healthScore": 58,
+    "diabetesFriendly": false,
+    "trafficLight": "red",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ispanaqli omlet",
+    "titleRu": "Омлет со шпинатом",
+    "titleEn": "Spinach omelet",
+    "time": 12,
+    "calories": 215,
+    "sugar": 1,
+    "carbs": 5,
+    "protein": 18,
+    "fat": 15,
+    "fiber": 2,
+    "gi": "low",
+    "category": "nonushta",
+    "categoryRu": "завтрак",
+    "categoryEn": "breakfast",
+    "servings": 1,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.unsplash.com/photo-1546069901-eacef0df6022?w=400",
+    "ingredientsUz": [
+      "3 tuxum",
+      "80g ismaloq",
+      "Pishloq",
+      "Zaytun moyi"
+    ],
+    "ingredientsRu": [
+      "3 яйца",
+      "80г шпината",
+      "Сыр",
+      "Оливковое масло"
+    ],
+    "ingredientsEn": [
+      "3 eggs",
+      "80g spinach",
+      "Cheese",
+      "Olive oil"
+    ],
+    "instructionsUz": "1. Ismaloqni qovuring. 2. Tuxumni qo'shib pishiring.",
+    "instructionsRu": "1. Обжарьте шпинат. 2. Добавьте яйца и готовьте.",
+    "instructionsEn": "1. Fry the spinach. 2. Add eggs and cook.",
+    "healthScore": 60,
+    "diabetesFriendly": false,
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Chia pudingi",
+    "titleRu": "Чиа-пудинг",
+    "titleEn": "Chia pudding",
+    "time": 485,
+    "calories": 180,
+    "sugar": 6,
+    "carbs": 22,
+    "protein": 8,
+    "fat": 9,
+    "fiber": 11,
+    "gi": "low",
+    "category": "nonushta",
+    "categoryRu": "завтрак",
+    "categoryEn": "breakfast",
+    "servings": 1,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400",
+    "ingredientsUz": [
+      "Chia urug'i",
+      "Badam suti",
+      "Mevalar"
+    ],
+    "ingredientsRu": [
+      "Семена чиа",
+      "Миндальное молоко",
+      "Фрукты"
+    ],
+    "ingredientsEn": [
+      "Chia seeds",
+      "Almond milk",
+      "Fruits"
+    ],
+    "instructionsUz": "Urug'larni sutda kechasi qoldiring, ertalab meva qo'shing.",
+    "instructionsRu": "Оставьте семена в молоке на ночь, утром добавьте фрукты.",
+    "instructionsEn": "Leave the seeds in milk overnight, add fruits in the morning.",
+    "healthScore": 82,
+    "diabetesFriendly": true,
+    "trafficLight": "yellow",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sabzavotli tovuq sho'rva",
+    "titleRu": "Куриный овощной суп",
+    "titleEn": "Chicken vegetable soup",
+    "time": 35,
+    "calories": 145,
+    "sugar": 3,
+    "carbs": 12,
+    "protein": 18,
+    "fat": 3,
+    "fiber": 3,
+    "gi": "low",
+    "category": "tushlik",
+    "categoryRu": "обед",
+    "categoryEn": "lunch",
+    "servings": 4,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+    "ingredientsUz": [
+      "Tovuq",
+      "Sabzi",
+      "Piyoz",
+      "Brokkoli"
+    ],
+    "ingredientsRu": [
+      "Курица",
+      "Морковь",
+      "Лук",
+      "Брокколи"
+    ],
+    "ingredientsEn": [
+      "Chicken",
+      "Carrots",
+      "Onion",
+      "Broccoli"
+    ],
+    "instructionsUz": "Tovuq va sabzavotlarni suvda pishiring.",
+    "instructionsRu": "Отварите курицу и овощи в воде.",
+    "instructionsEn": "Cook chicken and vegetables in water.",
+    "healthScore": 80,
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Yasmiq sho'rvasi",
+    "titleRu": "Чечевичный суп",
+    "titleEn": "Lentil soup",
+    "time": 40,
+    "calories": 165,
+    "sugar": 3,
+    "carbs": 25,
+    "protein": 12,
+    "fat": 2,
+    "fiber": 9,
+    "gi": "low",
+    "category": "tushlik",
+    "categoryRu": "обед",
+    "categoryEn": "lunch",
+    "servings": 4,
+    "difficulty": "oson",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+    "ingredientsUz": [
+      "200g qizil yasmiq",
+      "Piyoz",
+      "Sabzi",
+      "Pomidor"
+    ],
+    "ingredientsRu": [
+      "200г красной чечевицы",
+      "Лук",
+      "Морковь",
+      "Помидор"
+    ],
+    "ingredientsEn": [
+      "200g red lentils",
+      "Onion",
+      "Carrots",
+      "Tomato"
+    ],
+    "instructionsUz": "Yasmiqni sabzavotlar bilan pishirib blender qiling.",
+    "instructionsRu": "Сварите чечевицу с овощами и измельчите блендером.",
+    "instructionsEn": "Cook lentils with vegetables and blend.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Quinoa salat tovuq bilan",
+    "titleRu": "Салат из киноа с курицей",
+    "titleEn": "Quinoa chicken salad",
+    "time": 30,
+    "calories": 285,
+    "sugar": 4,
+    "carbs": 28,
+    "protein": 24,
+    "fat": 9,
+    "fiber": 5,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=400",
+    "ingredientsUz": [
+      "Quinoa",
+      "Tovuq filesi",
+      "Bodring",
+      "Pomidor"
+    ],
+    "ingredientsRu": [
+      "Киноа",
+      "Куриное филе",
+      "Огурец",
+      "Помидор"
+    ],
+    "ingredientsEn": [
+      "Quinoa",
+      "Chicken fillet",
+      "Cucumber",
+      "Tomato"
+    ],
+    "instructionsUz": "Pishgan quinoani tovuq va sabzavotlar bilan aralashtiring.",
+    "instructionsRu": "Смешайте приготовленную киноа с курицей и овощами.",
+    "instructionsEn": "Mix cooked quinoa with chicken and vegetables.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Bulgur tovuq bilan",
+    "titleRu": "Булгур с курицей",
+    "titleEn": "Bulgur with chicken",
+    "time": 40,
+    "calories": 365,
+    "sugar": 2,
+    "carbs": 42,
+    "protein": 32,
+    "fat": 8,
+    "fiber": 8,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+    "ingredientsUz": [
+      "Bulgur",
+      "Tovuq qiymasi",
+      "Piyoz"
+    ],
+    "ingredientsRu": [
+      "Булгур",
+      "Куриный фарш",
+      "Лук"
+    ],
+    "ingredientsEn": [
+      "Bulgur",
+      "Ground chicken",
+      "Onion"
+    ],
+    "instructionsUz": "Bulgurni damlab, kotletlar bilan xizmat qiling.",
+    "instructionsRu": "Приготовьте булгур и подавайте с котлетами.",
+    "instructionsEn": "Cook bulgur and serve with cutlets.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "No'xatli sabzavotli taom",
+    "titleRu": "Овощное блюдо с нутом",
+    "titleEn": "Chickpea vegetable dish",
+    "time": 45,
+    "calories": 185,
+    "sugar": 5,
+    "carbs": 29,
+    "protein": 10,
+    "fat": 4,
+    "fiber": 9,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+    "ingredientsUz": [
+      "Noxat",
+      "Brokkoli",
+      "Sabzi",
+      "Pomidor"
+    ],
+    "ingredientsRu": [
+      "Нут",
+      "Брокколи",
+      "Морковь",
+      "Помидор"
+    ],
+    "ingredientsEn": [
+      "Chickpeas",
+      "Broccoli",
+      "Carrots",
+      "Tomato"
+    ],
+    "instructionsUz": "Noxatni sabzavotlar bilan dimlang.",
+    "instructionsRu": "Тушите нут с овощами.",
+    "instructionsEn": "Stew chickpeas with vegetables.",
+    "trafficLight": "yellow",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Baliq grilda",
+    "titleRu": "Рыба на гриле",
+    "titleEn": "Grilled fish",
+    "time": 25,
+    "calories": 245,
+    "sugar": 3,
+    "carbs": 8,
+    "protein": 35,
+    "fat": 9,
+    "fiber": 2,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Baliq filesi",
+      "Salat bargi",
+      "Bodring",
+      "Limon"
+    ],
+    "ingredientsRu": [
+      "Филе рыбы",
+      "Салатные листья",
+      "Огурец",
+      "Лимон"
+    ],
+    "ingredientsEn": [
+      "Fish fillet",
+      "Lettuce leaves",
+      "Cucumber",
+      "Lemon"
+    ],
+    "instructionsUz": "Baliqni grilda pishirib salat bilan yeng.",
+    "instructionsRu": "Приготовьте рыбу на гриле и подавайте с салатом.",
+    "instructionsEn": "Grill the fish and serve with salad.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Pechdagi tovuq va sabzavot",
+    "titleRu": "Запеченная курица и овощи",
+    "titleEn": "Baked chicken and veggies",
+    "time": 50,
+    "calories": 285,
+    "sugar": 6,
+    "carbs": 18,
+    "protein": 32,
+    "fat": 10,
+    "fiber": 5,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400",
+    "trafficLight": "yellow",
+    "ingredientsUz": [
+      "Tovuq",
+      "Brokkoli",
+      "Qovoqcha",
+      "Sabzi"
+    ],
+    "ingredientsRu": [
+      "Курица",
+      "Брокколи",
+      "Цукини",
+      "Морковь"
+    ],
+    "ingredientsEn": [
+      "Chicken",
+      "Broccoli",
+      "Zucchini",
+      "Carrot"
+    ],
+    "instructionsUz": "Hammasini pechda birga pishiring.",
+    "instructionsRu": "Запеките все вместе в духовке.",
+    "instructionsEn": "Bake everything together in the oven.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Tovuq stir-fry",
+    "titleRu": "Курица стир-фрай",
+    "titleEn": "Chicken stir-fry",
+    "time": 35,
+    "calories": 335,
+    "sugar": 5,
+    "carbs": 38,
+    "protein": 28,
+    "fat": 8,
+    "fiber": 4,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400",
+    "trafficLight": "yellow",
+    "ingredientsUz": [
+      "Qora guruch",
+      "Tovuq",
+      "Brokkoli",
+      "Qalampir"
+    ],
+    "ingredientsRu": [
+      "Черный рис",
+      "Курица",
+      "Брокколи",
+      "Перец"
+    ],
+    "ingredientsEn": [
+      "Black rice",
+      "Chicken",
+      "Broccoli",
+      "Bell pepper"
+    ],
+    "instructionsUz": "Tovuq va sabzavotlarni tez qovurib guruch bilan xizmat qiling.",
+    "instructionsRu": "Быстро обжарьте курицу и овощи и подавайте с рисом.",
+    "instructionsEn": "Quickly stir-fry chicken and vegetables and serve with rice.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Baliq va brokkoli",
+    "titleRu": "Рыба и брокколи",
+    "titleEn": "Fish and broccoli",
+    "time": 20,
+    "calories": 220,
+    "sugar": 2,
+    "carbs": 8,
+    "protein": 32,
+    "fat": 7,
+    "fiber": 3,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Baliq",
+      "Brokkoli",
+      "Sarimsoq",
+      "Limon"
+    ],
+    "ingredientsRu": [
+      "Рыба",
+      "Брокколи",
+      "Чеснок",
+      "Лимон"
+    ],
+    "ingredientsEn": [
+      "Fish",
+      "Broccoli",
+      "Garlic",
+      "Lemon"
+    ],
+    "instructionsUz": "Baliq va brokkolini bug'da yoki pechda pishiring.",
+    "instructionsRu": "Приготовьте рыбу и брокколи на пару или в духовке.",
+    "instructionsEn": "Steam or bake fish and broccoli.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Kurka va quinoa",
+    "titleRu": "Индейка и киноа",
+    "titleEn": "Turkey and quinoa",
+    "time": 35,
+    "calories": 315,
+    "sugar": 2,
+    "carbs": 28,
+    "protein": 35,
+    "fat": 8,
+    "fiber": 5,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Quinoa",
+      "Kurka qiymasi",
+      "Ismaloq"
+    ],
+    "ingredientsRu": [
+      "Киноа",
+      "Фарш из индейки",
+      "Шпинат"
+    ],
+    "ingredientsEn": [
+      "Quinoa",
+      "Ground turkey",
+      "Spinach"
+    ],
+    "instructionsUz": "Kurka kotletlarini quinoa va ismaloq bilan birga torting.",
+    "instructionsRu": "Подавайте котлеты из индейки с киноа и шпинатом.",
+    "instructionsEn": "Serve turkey patties with quinoa and spinach.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Tovuq ko'krak grilda",
+    "titleRu": "Куриная грудка на гриле",
+    "titleEn": "Grilled chicken breast",
+    "time": 25,
+    "calories": 195,
+    "sugar": 1,
+    "carbs": 3,
+    "protein": 35,
+    "fat": 5,
+    "fiber": 1,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1432139509613-5c4255815697?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Tovuq ko'krak",
+      "Limon",
+      "Zaytun moyi"
+    ],
+    "ingredientsRu": [
+      "Куриная грудка",
+      "Лимон",
+      "Оливковое масло"
+    ],
+    "ingredientsEn": [
+      "Chicken breast",
+      "Lemon",
+      "Olive oil"
+    ],
+    "instructionsUz": "Tovuqni ziravorlar bilan grilda pishiring.",
+    "instructionsRu": "Приготовьте курицу на гриле со специями.",
+    "instructionsEn": "Grill chicken with spices.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Yong'oq miks",
+    "titleRu": "Ореховая смесь",
+    "titleEn": "Mixed nuts",
+    "time": 2,
+    "calories": 185,
+    "sugar": 3,
+    "carbs": 8,
+    "protein": 7,
+    "fat": 16,
+    "fiber": 3,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Bodom",
+      "Yong'oq",
+      "Chia"
+    ],
+    "ingredientsRu": [
+      "Миндаль",
+      "Грецкие орехи",
+      "Чиа"
+    ],
+    "ingredientsEn": [
+      "Almonds",
+      "Walnuts",
+      "Chia seeds"
+    ],
+    "instructionsUz": "Yong'oqlarni aralashtirib yeng.",
+    "instructionsRu": "Смешайте орехи и съешьте.",
+    "instructionsEn": "Mix nuts and eat.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Qaynatilgan tuxum",
+    "titleRu": "Вареные яйца",
+    "titleEn": "Boiled eggs",
+    "time": 12,
+    "calories": 143,
+    "sugar": 1,
+    "carbs": 1,
+    "protein": 13,
+    "fat": 10,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "2 dona tuxum"
+    ],
+    "ingredientsRu": [
+      "2 яйца"
+    ],
+    "ingredientsEn": [
+      "2 eggs"
+    ],
+    "instructionsUz": "Tuxumni 9 daqiqa qaynating.",
+    "instructionsRu": "Варите яйца 9 минут.",
+    "instructionsEn": "Boil eggs for 9 minutes.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sabzavot sticks",
+    "titleRu": "Овощные палочки",
+    "titleEn": "Veggie sticks",
+    "time": 10,
+    "calories": 125,
+    "sugar": 3,
+    "carbs": 12,
+    "protein": 3,
+    "fat": 8,
+    "fiber": 6,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1506802913710-40e2e66339c9?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Bodring",
+      "Sabzi",
+      "Avokado"
+    ],
+    "ingredientsRu": [
+      "Огурец",
+      "Морковь",
+      "Авокадо"
+    ],
+    "ingredientsEn": [
+      "Cucumber",
+      "Carrot",
+      "Avocado"
+    ],
+    "instructionsUz": "Sabzavotlarni kesib avokadoli sous bilan yeng.",
+    "instructionsRu": "Нарежьте овощи и съешьте с соусом из авокадо.",
+    "instructionsEn": "Cut vegetables and eat with avocado sauce.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Yogurt va blueberry",
+    "titleRu": "Йогурт и черника",
+    "titleEn": "Yogurt and blueberry",
+    "time": 3,
+    "calories": 135,
+    "sugar": 12,
+    "carbs": 16,
+    "protein": 12,
+    "fat": 4,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400",
+    "trafficLight": "yellow",
+    "ingredientsUz": [
+      "Greek yogurt",
+      "Blueberry"
+    ],
+    "ingredientsRu": [
+      "Греческий йогурт",
+      "Черника"
+    ],
+    "ingredientsEn": [
+      "Greek yogurt",
+      "Blueberry"
+    ],
+    "instructionsUz": "Yogurtga meva qo'shing.",
+    "instructionsRu": "Добавьте фрукты в йогурт.",
+    "instructionsEn": "Add fruit to yogurt.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Losos va ismaloq",
+    "titleRu": "Лосось и шпинат",
+    "titleEn": "Salmon with spinach",
+    "time": 20,
+    "calories": 320,
+    "sugar": 0,
+    "carbs": 2,
+    "protein": 34,
+    "fat": 22,
+    "fiber": 3,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "200g losos",
+      "150g ismaloq",
+      "Limon",
+      "Zaytun moyi"
+    ],
+    "ingredientsRu": [
+      "200г лосося",
+      "150г шпината",
+      "Лимон",
+      "Оливковое масло"
+    ],
+    "ingredientsEn": [
+      "200g salmon",
+      "150g spinach",
+      "Lemon",
+      "Olive oil"
+    ],
+    "instructionsUz": "Baliqni pishirib, dimlangan ismaloq bilan xizmat qiling.",
+    "instructionsRu": "Приготовьте рыбу и подавайте с тушеным шпинатом.",
+    "instructionsEn": "Cook the fish and serve with stewed spinach.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Brokkoli va pishloqli sho'rva",
+    "titleRu": "Сырный суп с брокколи",
+    "titleEn": "Broccoli cheese soup",
+    "time": 25,
+    "calories": 210,
+    "sugar": 4,
+    "carbs": 12,
+    "protein": 14,
+    "fat": 11,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "300g brokkoli",
+      "50g past yog'li pishloq",
+      "Sabzavotli bulyon"
+    ],
+    "ingredientsRu": [
+      "300г брокколи",
+      "50г нежирного сыра",
+      "Овощной бульон"
+    ],
+    "ingredientsEn": [
+      "300g broccoli",
+      "50g low-fat cheese",
+      "Vegetable broth"
+    ],
+    "instructionsUz": "Brokkolini pishirib, pishloq bilan blender qiling.",
+    "instructionsRu": "Приготовьте брокколи и измельчите блендером с сыром.",
+    "instructionsEn": "Cook the broccoli and blend with cheese.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Yasmiq karri",
+    "titleRu": "Карри из чечевицы",
+    "titleEn": "Lentil curry",
+    "time": 30,
+    "calories": 240,
+    "sugar": 5,
+    "carbs": 32,
+    "protein": 15,
+    "fat": 4,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "150g yasmiq",
+      "Karri ziravori",
+      "Pomidor",
+      "Piyoz"
+    ],
+    "ingredientsRu": [
+      "150г чечевицы",
+      "Приправа карри",
+      "Помидор",
+      "Лук"
+    ],
+    "ingredientsEn": [
+      "150g lentils",
+      "Curry spice",
+      "Tomato",
+      "Onion"
+    ],
+    "instructionsUz": "Yasmiqni ziravorlar va pomidor bilan dimlang.",
+    "instructionsRu": "Тушите чечевицу со специями и помидорами.",
+    "instructionsEn": "Stew the lentils with spices and tomatoes.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Quinoa va avokado salati",
+    "titleRu": "Салат из киноа и авокадо",
+    "titleEn": "Quinoa avocado salad",
+    "time": 15,
+    "calories": 290,
+    "sugar": 2,
+    "carbs": 24,
+    "protein": 9,
+    "fat": 19,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Quinoa",
+      "Avokado",
+      "Gilos pomidorlar",
+      "Limon sharbati"
+    ],
+    "ingredientsRu": [
+      "Киноа",
+      "Авокадо",
+      "Помидоры черри",
+      "Лимонный сок"
+    ],
+    "ingredientsEn": [
+      "Quinoa",
+      "Avocado",
+      "Cherry tomatoes",
+      "Lemon juice"
+    ],
+    "instructionsUz": "Quinoani avokado va pomidorlar bilan aralashtiring.",
+    "instructionsRu": "Смешайте киноа с авокадо и помидорами.",
+    "instructionsEn": "Mix quinoa with avocado and tomatoes.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "No'xatli ragu",
+    "titleRu": "Рагу из нута",
+    "titleEn": "Chickpea stew",
+    "time": 35,
+    "calories": 260,
+    "sugar": 4,
+    "carbs": 35,
+    "protein": 12,
+    "fat": 6,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Konservalangan no'xat",
+      "Baqlajon",
+      "Bolgar qalampiri"
+    ],
+    "ingredientsRu": [
+      "Консервированный нут",
+      "Баклажан",
+      "Болгарский перец"
+    ],
+    "ingredientsEn": [
+      "Canned chickpeas",
+      "Eggplant",
+      "Bell pepper"
+    ],
+    "instructionsUz": "No'xat va sabzavotlarni pomidor sousida dimlang.",
+    "instructionsRu": "Тушите нут и овощи в томатном соусе.",
+    "instructionsEn": "Stew chickpeas and vegetables in tomato sauce.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Yong'oqli sabzavotlar",
+    "titleRu": "Овощи с орехами",
+    "titleEn": "Veggies with walnuts",
+    "time": 20,
+    "calories": 230,
+    "sugar": 5,
+    "carbs": 15,
+    "protein": 8,
+    "fat": 17,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Gulkaram",
+      "Sabzi",
+      "Yong'oq",
+      "Zaytun moyi"
+    ],
+    "ingredientsRu": [
+      "Цветная капуста",
+      "Морковь",
+      "Грецкие орехи",
+      "Оливковое масло"
+    ],
+    "ingredientsEn": [
+      "Cauliflower",
+      "Carrots",
+      "Walnuts",
+      "Olive oil"
+    ],
+    "instructionsUz": "Sabzavotlarni qovurib, ustidan yong'oq seping.",
+    "instructionsRu": "Обжарьте овощи и посыпьте сверху грецкими орехами.",
+    "instructionsEn": "Fry the vegetables and sprinkle with walnuts.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "No'xatli bulgur palov",
+    "titleRu": "Булгур с нутом",
+    "titleEn": "Bulgur with chickpeas",
+    "time": 30,
+    "calories": 310,
+    "sugar": 3,
+    "carbs": 48,
+    "protein": 11,
+    "fat": 5,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Bulgur",
+      "No'xat",
+      "Zira",
+      "Piyoz"
+    ],
+    "ingredientsRu": [
+      "Булгур",
+      "Нут",
+      "Зира",
+      "Лук"
+    ],
+    "ingredientsEn": [
+      "Bulgur",
+      "Chickpeas",
+      "Cumin",
+      "Onion"
+    ],
+    "instructionsUz": "Bulgur va no'xatni palov usulida pishiring.",
+    "instructionsRu": "Приготовьте булгур и нут по методу плова.",
+    "instructionsEn": "Cook bulgur and chickpeas in pilaf style.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Ismaloq va qo'ziqorinli omlet",
+    "titleRu": "Омлет со шпинатом и грибами",
+    "titleEn": "Spinach mushroom omelette",
+    "time": 10,
+    "calories": 190,
+    "sugar": 1,
+    "carbs": 4,
+    "protein": 16,
+    "fat": 13,
+    "gi": "low",
+    "category": "nonushta",
+    "image": "https://images.unsplash.com/photo-1546069901-eacef0df6022?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "2 tuxum",
+      "50g ismaloq",
+      "50g qo'ziqorin"
+    ],
+    "ingredientsRu": [
+      "2 яйца",
+      "50г шпината",
+      "50г грибов"
+    ],
+    "ingredientsEn": [
+      "2 eggs",
+      "50g spinach",
+      "50g mushrooms"
+    ],
+    "instructionsUz": "Qo'ziqorin va ismaloqni qovurib, tuxum quying.",
+    "instructionsRu": "Обжарьте грибы и шпинат, затем залейте яйцами.",
+    "instructionsEn": "Fry mushrooms and spinach, then pour in eggs.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Limonli karam salati",
+    "titleRu": "Капустный салат с лимоном",
+    "titleEn": "Cabbage lemon salad",
+    "time": 10,
+    "calories": 85,
+    "sugar": 4,
+    "carbs": 10,
+    "protein": 2,
+    "fat": 5,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1506802913710-40e2e66339c9?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Yashil karam",
+      "Limon sharbati",
+      "Kashnich"
+    ],
+    "ingredientsRu": [
+      "Зеленая капуста",
+      "Лимонный сок",
+      "Кинза"
+    ],
+    "ingredientsEn": [
+      "Green cabbage",
+      "Lemon juice",
+      "Cilantro"
+    ],
+    "instructionsUz": "Karamni yupqa to'g'rab limon va yog' bilan aralashtiring.",
+    "instructionsRu": "Тонко нарежьте капусту и смешайте с лимоном и маслом.",
+    "instructionsEn": "Finely chop the cabbage and mix with lemon and oil.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Baliq va yashil no'xat",
+    "titleRu": "Рыба с зеленым горошком",
+    "titleEn": "Fish with green peas",
+    "time": 25,
+    "calories": 240,
+    "sugar": 3,
+    "carbs": 14,
+    "protein": 30,
+    "fat": 6,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?w=400",
+    "trafficLight": "green",
+    "ingredientsUz": [
+      "Oq baliq",
+      "Yashil no'xat",
+      "Yalpiz"
+    ],
+    "ingredientsRu": [
+      "Белая рыба",
+      "Зеленый горошек",
+      "Мята"
+    ],
+    "ingredientsEn": [
+      "White fish",
+      "Green peas",
+      "Mint"
+    ],
+    "instructionsUz": "Baliqni pishirib, ezilgan yashil no'xat bilan torting.",
+    "instructionsRu": "Приготовьте рыбу и подавайте с пюре из зеленого горошка.",
+    "instructionsEn": "Cook the fish and serve with mashed green peas.",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Kurkali burger",
+    "titleRu": "Бургер из индейки",
+    "titleEn": "Turkey burger",
+    "time": 25,
+    "calories": 310,
+    "sugar": 2,
+    "carbs": 22,
+    "protein": 28,
+    "fat": 12,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?w=400",
+    "ingredientsUz": [
+      "Kurka go'shti",
+      "Butun donli non",
+      "Salat bargi"
+    ],
+    "ingredientsRu": [
+      "Мясо индейки",
+      "Цельнозерновой хлеб",
+      "Листья салата"
+    ],
+    "ingredientsEn": [
+      "Turkey meat",
+      "Whole grain bread",
+      "Lettuce leaves"
+    ],
+    "instructionsUz": "Kurka qiymasidan kotlet pishirib butun donli non bilan yeng.",
+    "instructionsRu": "Приготовьте котлету из индейки и подавайте с цельнозерновым хлебом.",
+    "instructionsEn": "Cook a turkey patty and serve it with whole grain bread.",
+    "trafficLight": "yellow",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Pechda lavlagi",
+    "titleRu": "Запеченная свекла",
+    "titleEn": "Roasted beets",
+    "time": 45,
+    "calories": 160,
+    "sugar": 8,
+    "carbs": 14,
+    "protein": 4,
+    "fat": 9,
+    "gi": "medium",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400",
+    "ingredientsUz": [
+      "Lavlagi",
+      "Feta pishlog'i",
+      "Yong'oq"
+    ],
+    "ingredientsRu": [
+      "Свекла",
+      "Сыр фета",
+      "Грецкие орехи"
+    ],
+    "ingredientsEn": [
+      "Beets",
+      "Feta cheese",
+      "Walnuts"
+    ],
+    "instructionsUz": "Lavlagini pechda pishirib pishloq va yong'oq bilan aralashtiring.",
+    "instructionsRu": "Запеките свеклу в духовке и смешайте с сыром и грецкими орехами.",
+    "instructionsEn": "Roast the beets in the oven and mix with cheese and walnuts.",
+    "trafficLight": "yellow",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Loviya va sabzavotli salat",
+    "titleRu": "Салат из фасоли и овощей",
+    "titleEn": "Bean and veggie salad",
+    "time": 10,
+    "calories": 195,
+    "sugar": 3,
+    "carbs": 24,
+    "protein": 11,
+    "fat": 6,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=400",
+    "ingredientsUz": [
+      "Qizil loviya",
+      "Makkajo'xori",
+      "Piyoz",
+      "Limon"
+    ],
+    "ingredientsRu": [
+      "Красная фасоль",
+      "Кукуруза",
+      "Лук",
+      "Лимон"
+    ],
+    "ingredientsEn": [
+      "Red beans",
+      "Corn",
+      "Onion",
+      "Lemon"
+    ],
+    "instructionsUz": "Loviyani sabzavotlar bilan aralashtirib limon quying.",
+    "instructionsRu": "Смешайте фасоль с овощами и заправьте лимоном.",
+    "instructionsEn": "Mix the beans with vegetables and drizzle with lemon.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Pechda tovuq va gulkaram",
+    "titleRu": "Запеченная курица и цветная капуста",
+    "titleEn": "Baked chicken with cauliflower",
+    "time": 40,
+    "calories": 270,
+    "sugar": 2,
+    "carbs": 12,
+    "protein": 30,
+    "fat": 9,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400",
+    "ingredientsUz": [
+      "Tovuq fllesi",
+      "Gulkaram",
+      "Kari ziravori"
+    ],
+    "ingredientsRu": [
+      "Куриное филе",
+      "Цветная капуста",
+      "Карри"
+    ],
+    "ingredientsEn": [
+      "Chicken fillet",
+      "Cauliflower",
+      "Curry spice"
+    ],
+    "instructionsUz": "Tovuq va gulkaramni ziravorlar bilan pechda pishiring.",
+    "instructionsRu": "Запеките курицу и цветную капусту со специями в духовке.",
+    "instructionsEn": "Bake chicken and cauliflower with spices in the oven.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Yong'oqli suli bo'tqasi",
+    "titleRu": "Овсянка с орехами",
+    "titleEn": "Oatmeal with walnuts",
+    "time": 15,
+    "calories": 250,
+    "sugar": 5,
+    "carbs": 34,
+    "protein": 8,
+    "fat": 10,
+    "gi": "low",
+    "category": "nonushta",
+    "image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "ingredientsUz": [
+      "Suli",
+      "Suv",
+      "Yong'oq",
+      "Yashil olma"
+    ],
+    "ingredientsRu": [
+      "Овсянка",
+      "Вода",
+      "Грецкие орехи",
+      "Зеленое яблоко"
+    ],
+    "ingredientsEn": [
+      "Oats",
+      "Water",
+      "Walnuts",
+      "Green apple"
+    ],
+    "instructionsUz": "Sulini pishirib, ustiga olma va yong'oq qo'shing.",
+    "instructionsRu": "Сварите овсянку, затем добавьте яблоко и грецкие орехи.",
+    "instructionsEn": "Cook the oatmeal, then add apple and walnuts.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Bug'da baliq va sparja",
+    "titleRu": "Рыба и спаржа на пару",
+    "titleEn": "Steamed fish and asparagus",
+    "time": 20,
+    "calories": 210,
+    "sugar": 1,
+    "carbs": 6,
+    "protein": 32,
+    "fat": 7,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400",
+    "ingredientsUz": [
+      "Oq baliq",
+      "Sparja",
+      "Limon",
+      "Murch"
+    ],
+    "ingredientsRu": [
+      "Белая рыба",
+      "Спаржа",
+      "Лимон",
+      "Перец"
+    ],
+    "ingredientsEn": [
+      "White fish",
+      "Asparagus",
+      "Lemon",
+      "Pepper"
+    ],
+    "instructionsUz": "Baliq va sparjani bug'da pishirib limon quying.",
+    "instructionsRu": "Приготовьте рыбу и спаржу на пару, затем полейте лимоном.",
+    "instructionsEn": "Steam the fish and asparagus, then squeeze lemon over them.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Qizil karam va olmali salat",
+    "titleRu": "Салат из красной капусты и яблока",
+    "titleEn": "Red cabbage & apple slaw",
+    "time": 10,
+    "calories": 95,
+    "sugar": 9,
+    "carbs": 12,
+    "protein": 2,
+    "fat": 4,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1506802913710-40e2e66339c9?w=400",
+    "ingredientsUz": [
+      "Qizil karam",
+      "Yashil olma",
+      "Sarimsoq"
+    ],
+    "ingredientsRu": [
+      "Красная капуста",
+      "Зеленое яблоко",
+      "Чеснок"
+    ],
+    "ingredientsEn": [
+      "Red cabbage",
+      "Green apple",
+      "Garlic"
+    ],
+    "instructionsUz": "Karam va olmani to'g'rab zaytun moyi bilan aralashtiring.",
+    "instructionsRu": "Нарежьте капусту и яблоко, смешайте с оливковым маслом.",
+    "instructionsEn": "Chop the cabbage and apple, mix with olive oil.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Meva miks smuzi",
+    "titleRu": "Смузи из ягод",
+    "titleEn": "Mixed berry smoothie",
+    "time": 5,
+    "calories": 160,
+    "sugar": 10,
+    "carbs": 18,
+    "protein": 5,
+    "fat": 2,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400",
+    "ingredientsUz": [
+      "Blueberry",
+      "Raspberry",
+      "Sut (yog'siz)"
+    ],
+    "ingredientsRu": [
+      "Черника",
+      "Малина",
+      "Молоко (обезжиренное)"
+    ],
+    "ingredientsEn": [
+      "Blueberry",
+      "Raspberry",
+      "Milk (fat-free)"
+    ],
+    "instructionsUz": "Hammasini blender qilib iching.",
+    "instructionsRu": "Все смешайте в блендере и выпейте.",
+    "instructionsEn": "Blend everything and drink.",
+    "trafficLight": "yellow",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Gril sabzavotlar va pesto",
+    "titleRu": "Овощи гриль с песто",
+    "titleEn": "Grilled vegetables with pesto",
+    "time": 20,
+    "calories": 240,
+    "sugar": 4,
+    "carbs": 12,
+    "protein": 4,
+    "fat": 20,
+    "gi": "low",
+    "category": "gazak",
+    "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400",
+    "ingredientsUz": [
+      "Qovoqcha",
+      "Baqlajon",
+      "Pesto sousi"
+    ],
+    "ingredientsRu": [
+      "Цукини",
+      "Баклажан",
+      "Соус песто"
+    ],
+    "ingredientsEn": [
+      "Zucchini",
+      "Eggplant",
+      "Pesto sauce"
+    ],
+    "instructionsUz": "Sabzavotlarni grilda pishirib pesto bilan torting.",
+    "instructionsRu": "Приготовьте овощи на гриле и подавайте с песто.",
+    "instructionsEn": "Grill the vegetables and serve with pesto.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Yasmiq va ismaloqli sho'rva",
+    "titleRu": "Суп из чечевицы и шпината",
+    "titleEn": "Lentil & spinach soup",
+    "time": 35,
+    "calories": 180,
+    "sugar": 3,
+    "carbs": 22,
+    "protein": 14,
+    "fat": 3,
+    "gi": "low",
+    "category": "tushlik",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+    "ingredientsUz": [
+      "Yasmiq",
+      "Ismaloq",
+      "Piyoz",
+      "Limon"
+    ],
+    "ingredientsRu": [
+      "Чечевица",
+      "Шпинат",
+      "Лук",
+      "Лимон"
+    ],
+    "ingredientsEn": [
+      "Lentils",
+      "Spinach",
+      "Onion",
+      "Lemon"
+    ],
+    "instructionsUz": "Yasmiqni pishirib oxirida ismaloq va limon qo'shing.",
+    "instructionsRu": "Сварите чечевицу, в конце добавьте шпинат и лимон.",
+    "instructionsEn": "Cook the lentils, then add spinach and lemon at the end.",
+    "trafficLight": "green",
+    "forDisease": [
+      "diabet",
+      "semizlik",
+      "umumiy"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "DASH parhezi: Sabzavotli kam tuzli losos",
+    "titleRu": "Лосось на пару с брокколи и лимоном (DASH)",
+    "titleEn": "Steamed lemon salmon with broccoli (DASH)",
+    "time": 25,
+    "calories": 320,
+    "sugar": 1,
+    "carbs": 6,
+    "protein": 34,
+    "fat": 16,
+    "fiber": 5,
+    "gi": "low",
+    "category": "tushlik",
+    "categoryRu": "обед",
+    "categoryEn": "lunch",
+    "forDisease": [
+      "gipertenziya",
+      "aritmiya",
+      "umumiy"
+    ],
+    "servings": 2,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400",
+    "ingredientsUz": [
+      "250g yangi losos yoki oq baliq filesi",
+      "200g brokkoli",
+      "1/2 dona limon sharbati",
+      "1 osh qoshiq zaytun moyi",
+      "Quritilgan kashnich va xushbo'y o'tlar (tuzsiz)"
+    ],
+    "ingredientsRu": [
+      "250г филе лосося",
+      "200г брокколи",
+      "Сок 1/2 лимона",
+      "1 ст. л. оливкового масла",
+      "Прованские травы без соли"
+    ],
+    "ingredientsEn": [
+      "250g salmon fillet",
+      "200g broccoli florets",
+      "Juice of 1/2 lemon",
+      "1 tbsp olive oil",
+      "Salt-free herbs"
+    ],
+    "instructionsUz": "Baliq va brokkolini bug'da 15 daqiqa pishiring. Ustiga limon sharbati, zaytun moyi va xushbo'y o'tlar seping. Tuz qo'shmang — limon va o'tlar tabiiy mazali qiladi.",
+    "instructionsRu": "Приготовьте рыбу и брокколи на пару 15 минут. Полейте соком лимона и маслом. Соль не добавляйте.",
+    "instructionsEn": "Steam salmon and broccoli for 15 mins. Dress with lemon juice and olive oil without adding salt.",
+    "isFavorite": false,
+    "healthScore": 98,
+    "diabetesFriendly": true,
+    "trafficLight": "green"
+  },
+  {
+    "id": 42,
+    "title": "Kaliyga boy pishirilgan qovoqli salat",
+    "titleRu": "Теплый салат из запеченной тыквы с рукколой",
+    "titleEn": "Warm roasted pumpkin and arugula salad",
+    "time": 20,
+    "calories": 160,
+    "sugar": 4,
+    "carbs": 18,
+    "protein": 4,
+    "fat": 8,
+    "fiber": 4,
+    "gi": "low",
+    "category": "kechki_ovqat",
+    "categoryRu": "ужин",
+    "categoryEn": "dinner",
+    "forDisease": [
+      "gipertenziya",
+      "aritmiya",
+      "semizlik",
+      "diabet"
+    ],
+    "servings": 2,
+    "difficulty": "oson",
+    "difficultyRu": "легко",
+    "difficultyEn": "easy",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400",
+    "ingredientsUz": [
+      "200g qovoq bo'laklari",
+      "50g yangi rukkola yoki ismaloq",
+      "1 osh qoshiq qovoq urug'i",
+      "1 choy qoshiq zaytun moyi",
+      "Limon sharbati"
+    ],
+    "ingredientsRu": [
+      "200г мякоти тыквы",
+      "50г рукколы",
+      "1 ст. л. тыквенных семечек",
+      "1 ч. л. оливкового масла",
+      "Сок лимона"
+    ],
+    "ingredientsEn": [
+      "200g diced pumpkin",
+      "50g fresh arugula",
+      "1 tbsp pumpkin seeds",
+      "1 tsp olive oil",
+      "Lemon juice"
+    ],
+    "instructionsUz": "Qovoqni duxovkada 15 daqiqa qizartirib pishiring. Rukkola va qovoq urug'lari bilan aralashtirib, limon sharbati qo'shing. Kaliy va magniyga juda boy.",
+    "instructionsRu": "Запеките тыкву в духовке до мягкости, смешайте с рукколой и семечками, сбрызните лимоном.",
+    "instructionsEn": "Roast pumpkin cubes until tender, toss with arugula, seeds, and lemon juice.",
+    "isFavorite": false,
+    "healthScore": 95,
+    "diabetesFriendly": true,
+    "trafficLight": "green"
+  },
+  {
+    "id": 43,
+    "title": "Gipoallergen kurka go'shti va qovoqcha pyuresi",
+    "titleRu": "Суфле из индейки с пюре из кабачков",
+    "titleEn": "Turkey souffle with zucchini mash",
+    "time": 30,
+    "calories": 240,
+    "sugar": 1,
+    "carbs": 8,
+    "protein": 30,
+    "fat": 7,
+    "fiber": 3,
+    "gi": "low",
+    "category": "tushlik",
+    "categoryRu": "обед",
+    "categoryEn": "lunch",
+    "forDisease": [
+      "astma",
+      "umumiy",
+      "semizlik"
+    ],
+    "servings": 2,
+    "difficulty": "orta",
+    "difficultyRu": "средне",
+    "difficultyEn": "medium",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+    "ingredientsUz": [
+      "200g kurka go'shti qiymasi",
+      "1 dona yosh qovoqcha (tsukkini)",
+      "1 dona tuxum oqi",
+      "Petrushka va ukrop"
+    ],
+    "ingredientsRu": [
+      "200г фарша индейки",
+      "1 молодой кабачок",
+      "1 яичный белок",
+      "Зелень укропа"
+    ],
+    "ingredientsEn": [
+      "200g minced turkey",
+      "1 zucchini",
+      "1 egg white",
+      "Fresh dill"
+    ],
+    "instructionsUz": "Kurka qiymasi va qovoqchani bug'da 20 daqiqa dimlang. Hech qanday konservant yoki allergen moddalar yo'q, nafas yo'llariga xavfsiz.",
+    "instructionsRu": "Приготовьте суфле из индейки и кабачка на пару. Полностью гипоаллергенно.",
+    "instructionsEn": "Steam turkey and zucchini mash for 20 mins. Completely hypoallergenic and soothing.",
+    "isFavorite": false,
+    "healthScore": 96,
+    "diabetesFriendly": true,
+    "trafficLight": "green"
+  }
+]

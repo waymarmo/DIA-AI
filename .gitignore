@@ -1,0 +1,69 @@
+node_modules/
+.expo/
+.expo-shared/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+dist/
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment — API kalitlari (HECH QACHON PUSH QILINMAYDI!)
+.env
+.env.local
+.env.production
+
+# Skriptlar va vaqtinchalik fayllar
+*.sh
+scripts/
+
+# Screenshot va media
+src/screenshot/
+
+# Build artifacts
+android/
+ios/
+
+# Firebase — maxfiy config (HECH QACHON PUSH QILINMAYDI!)
+google-services.json
+GoogleService-Info.plist
+
+# Keraksiz fayllar
+categorize_recipes.js
+check_models.js
+generate_recipes.py
+bildirishnomalar_ekrani.png
+assets/temp.png
+"assets/Dia Ai.zip"
+assets/.gitkeep
+
+# Diploma/hisobot rasmlari
+hisobot-interfeys-rasmlari/
+
+# Backend
+backend/venv/
+backend/*.db
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary & Test files
+expo_output.txt
+reproduce_issue.js
+gemoglobin.jpg
+
+# Markdown fayllari (Barcha ichki md fayllar yopiq, faqat README.md ochiq)
+*.md
+**/*.md
+!README.md

@@ -1,0 +1,91 @@
+{
+  "expo": {
+    "name": "Dia AI",
+    "slug": "dia-ai",
+    "version": "1.0.0",
+    "scheme": "diaai-app",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a3a2e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Ilova kamera orqali taomlarni skanerlash va tanib olish uchun ishlatadi."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Profil rasmini yuklash uchun galereya dostupga talab qilinadi."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#00E676",
+          "defaultChannel": "meal-reminders"
+        }
+      ],
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
+          }
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "expo-sharing",
+      "expo-splash-screen",
+      "expo-status-bar"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.diaai.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan food barcodes and identify products.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photos to analyze food items."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a3a2e"
+      },
+      "package": "com.diaai.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.VIBRATE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "377a5f64-6964-4ecc-8ac1-768311984007"
+      }
+    }
+  }
+}
